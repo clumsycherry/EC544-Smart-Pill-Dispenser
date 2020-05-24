@@ -1,0 +1,28 @@
+Bot: Enter the following commands to retrieve patient information.
+/patient - name & age of patient
+/log - missed medication for the past 30 days
+/contacts - patients' trusted contacts'
+/progress - side effects or symptoms this week
+/treatment - list what the medications are treating
+/prescriptions - list of patient medication
+
+Doctor: /log
+Bot: The patient forgot to take Tylenol at 8:30 AM on Thursday.
+
+Doctor: /prescriptions
+Bot:
+Tylenol, 2 per day, 250 mg
+Vicodin, 1 per day, 500 mg
+
+Doctor: /patient
+Bot: Severus Snape, age 37
+
+Doctor: /contacts
+Bot: Professor Dumbledore, (858)380-0000
+
+Doctor: /progress
+Bot: Dizziness experienced on 3/29/2020
+Nausea experienced on 3/26/2020
+
+Doctor: /treatment
+Bot: This patient is taking stomachache and headache pills.

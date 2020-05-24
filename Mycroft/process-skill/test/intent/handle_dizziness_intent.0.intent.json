@@ -1,0 +1,8 @@
+{
+    "expected_dialog": "welcome",
+    "intent": {
+        "DizzinessKeyword": "yes i need to take pill"
+    },
+    "intent_type": "handle_dizziness_intent",
+    "utterance": "yes i need to take pill"
+}

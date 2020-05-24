@@ -1,0 +1,12 @@
+{
+    "doctorid": "51250299",
+    "command": "patients",
+    "data": [
+        {
+            "23": "23 - John Snow - 1990-09-03"
+        },
+        {
+            "24": "24 - Bellatrix Lestrange - 1998-10-30"
+        }
+    ]
+}

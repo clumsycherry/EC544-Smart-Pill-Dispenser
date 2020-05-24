@@ -1,0 +1,3 @@
+echo off
+signer stop
+Finish to send message

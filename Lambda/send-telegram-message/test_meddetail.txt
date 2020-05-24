@@ -1,0 +1,5 @@
+{
+    "doctorid": "51250299",
+    "command": "meddetail M0",
+    "data": "Tylenol - 250 mg - BID - Escalations: 0 - Missed Doses: 0"
+}

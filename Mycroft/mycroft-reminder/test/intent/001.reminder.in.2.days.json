@@ -1,0 +1,6 @@
+{
+  "utterance": "remind me to be awesome in 2 days",
+  "intent_type": "ReminderAt.intent",
+  "expected_dialog": "SavingReminderDate",
+  "settings": {}
+}

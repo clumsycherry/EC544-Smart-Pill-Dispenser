@@ -1,0 +1,24 @@
+{
+  "name": "HAPPY",
+  "email": "test@bu.edu",
+  "message": "huh",
+  "update_id": 51250299,
+  "message2": {
+    "date": 1441645532,
+    "chat": {
+      "last_name": "Test Lastname",
+      "id": 1111111,
+      "type": "private",
+      "first_name": "Test Firstname",
+      "username": "Testusername"
+    },
+    "message_id": 1365,
+    "from": {
+      "last_name": "Test Lastname",
+      "id": 51250299,
+      "first_name": "Test Firstname",
+      "username": "Testusername"
+    },
+    "text": "/start"
+  }
+}

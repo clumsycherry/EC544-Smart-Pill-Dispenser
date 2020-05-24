@@ -1,0 +1,23 @@
+{
+  "update_id": 596154969,
+  "message": {
+    "message_id": 66,
+    "from": {
+      "id": 51250299,
+      "is_bot": false,
+      "first_name": "Evelyn",
+      "last_name": "Liu",
+      "username": "evelynliu",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 51250299,
+      "first_name": "Evelyn",
+      "last_name": "Liu",
+      "username": "evelynliu",
+      "type": "private"
+    },
+    "date": 1586141427,
+    "text": "This message is sent from Lambda directly"
+  }
+}

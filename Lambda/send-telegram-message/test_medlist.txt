@@ -1,0 +1,12 @@
+{
+    "doctorid": "001",
+    "command": "medlist",
+    "data": [
+        {
+            "M0": "M0 - Tylenol - 0 - 0 - Headache"
+        },
+        {
+            "M2": "M2 - Seratonin - 0 - 0 - Depression"
+        }
+    ]
+}

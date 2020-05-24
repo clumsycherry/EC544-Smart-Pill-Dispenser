@@ -1,0 +1,5 @@
+{
+    "expected_dialog": "welcome",
+    "intent_type": "handle_thank_you_intent",
+    "utterance": "yes i need to take pill"
+}

@@ -1,0 +1,39 @@
+{
+  "bodyRaw": "{\"update_id\":596154969,\n\"message\":{\"message_id\":66,\"from\":{\"id\":51250299,\"is_bot\":false,\"first_name\":\"Evelyn\",\"last_name\":\"Liu\",\"username\":\"evelynliu\",\"language_code\":\"en\"},\"chat\":{\"id\":51250299,\"first_name\":\"Evelyn\",\"last_name\":\"Liu\",\"username\":\"evelynliu\",\"type\":\"private\"},\"date\":1586141427,\"text\":\"jkl\"}}",
+  "path": "/",
+  "method": "POST",
+  "query": {},
+  "body": {
+    "message": {
+      "from": {
+        "username": "evelynliu",
+        "last_name": "Liu",
+        "id": 51250299,
+        "language_code": "en",
+        "is_bot": false,
+        "first_name": "Evelyn"
+      },
+      "date": 1586141427,
+      "message_id": 66,
+      "text": "jkl",
+      "chat": {
+        "username": "evelynliu",
+        "last_name": "Liu",
+        "id": 51250299,
+        "type": "private",
+        "first_name": "Evelyn"
+      }
+    },
+    "update_id": 596154969
+  },
+  "headers": {
+    "host": "c7b94dc6cbec2b6beaf1f7cd91ed56b4.m.pipedream.net",
+    "x-forwarded-for": "91.108.6.114",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": "308",
+    "x-forwarded-proto": "https",
+    "x-amzn-trace-id": "Root=1-5e8a98f4-0f905ae4c722a994bad9dc94",
+    "x-forwarded-port": "443"
+  }
+}

@@ -1,0 +1,7 @@
+(ricordami|notificami) (|di|del|della|del) {reminder} ((|il|al|per) {timedate}|domani|il giorno dopo {date})
+aggiungi nuovo promemoria {reminder} (il|alle) {timedate}
+aggiungi un nuovo promemoria (|per) {reminder} (il|alle) {timedate}
+(ricordami|notificami) (|di|del|della|del) {reminder} (|il|al|per) {timedate}
+(ricordami|notificami) (|di|del|della|del) {reminder} tra {timedate}
+aggiungi nuovo promemoria {reminder} il {timedate}
+aggiungi un promemoria (|per) {reminder} il {timedate}

@@ -1,0 +1,35 @@
+Telegram
+- We set up a Telegram Bot to allow physicians to access their patient’s medication records via Hyperledger.
+- To create the Bot, we started a chat window with BotFather, which links us to the Bot API
+- Here it allows us to create a new bot. We named it the Medication Dispenser Bot, and got an access token in return.
+- It also allows us to set its picture, description, and starting message.
+- Now we can search Medication Dispenser Bot
+- Once you click in, a welcome message lets you know what the bot does.
+- The start command is automatic, and shows you all the commands available to you.
+- Here you can see its logo, username, and a brief description.
+
+(need hyperledger here)
+- When I type in /patients, it shows me their ID and birthdates
+- Then, using the progress command, I can check on patient number 23. Here it shows the most recent dates that John has experienced nausea and sadness.
+- I can check on patient 23’s prescriptions. It shows that he’s prescribed tylenol and serotonin, esaclations?, how often they’ve missed their doses, and the indications for the drug.
+- Patient 24 on the other hand is prescribed Mircette for weight problems
+- I can check on patient 23’s prescriptions. It shows that he’s prescribed tylenol and serotonin, it shows the how frequent their alerts are escalated, and  how often they’ve missed their doses, and the indications for the drug.
+- It also shows you when you enter the commands wrong.
+- We are going to try this on another Telegram user to simulate an unauthorized physician. As you can see, the medication dispenser bot does not leak information.
+
+API Gateway
+- The telegram messages are sent to an AWS API Gateway https endpoint and treated as a post request.
+- The method is deployed in TelegramStage
+- API forwards the message directly to AWS Lambda as JSON events.
+- It also returns any 400 error codes
+- We created 3 AWS IAM user accounts with varying permissions so we can access API Gateway and Lambda to perform testing.
+
+Lambda
+- In the Lambda console, you can see 2 telegram functions.
+- “Send-telegram-message-2” receives the JSON event from API Gateway and generates webhooks to our hyperledger.
+- It returns 200 ok and 400 error codes
+- This is a sample JSON event that gets sent to the function.
+- It includes the physician’s chat ID, name, username, message, and most importantly, information on any commands entered in the message.
+- The other function is “Send-telegram-message.” It receives data from hyperledger to send back to Telegram using the chat_IDs. 
+- The JSON events for this lambda function include the command in action and its associated data.
+- The data is then written into formatted texts for physicians to read.

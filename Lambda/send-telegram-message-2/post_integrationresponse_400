@@ -1,0 +1,16 @@
+#set($inputRoot = $input.path('$'))
+#set($errorMessageObj = $util.parseJson())
+{
+    "message" : $input.path('$.errorMessage')
+}
+
+
+
+
+*note
+Content-type: application/json
+Lambda Error Regex: .*error.*
+Content handling: Convert to text (if needed)
+Deploy: Telegram Stage, (https://kok6qidfbe.execute-api.us-east-2.amazonaws.com/TelegramStage)
+
+Webhook: https://api.telegram.org/bot{my_bot_token}/setWebhook?url={url_to_send_updates_to}

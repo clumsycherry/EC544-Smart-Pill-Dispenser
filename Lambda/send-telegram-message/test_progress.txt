@@ -1,0 +1,30 @@
+{
+    "doctorid": "51250299",
+    "command": "progress",
+    "data": [
+        {
+            "Medication": "Tylenol",
+            "Progress_Code": "2",
+            "Date": "2020-04-01"
+            
+        },
+        {
+            "Medication": "Tylenol",
+            "Progress_Code": "2",
+            "Date": "2020-04-02"
+            
+        },
+        {
+            "Medication": "Seratonin",
+            "Progress_Code": "3",
+            "Date": "2020-03-30"
+            
+        },
+        {
+            "Medication":
+            "Seratonin",
+            "Progress_Code": "3",
+            "Date": "2020-04-03"
+        }
+    ]
+}

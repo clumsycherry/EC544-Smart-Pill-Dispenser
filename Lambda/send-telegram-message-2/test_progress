@@ -1,0 +1,30 @@
+{
+  "update_id": 596154994,
+  "message": {
+    "message_id": 114,
+    "from": {
+      "id": 51250299,
+      "is_bot": false,
+      "first_name": "Evelyn",
+      "last_name": "Liu",
+      "username": "evelynliu",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 51250299,
+      "first_name": "Evelyn",
+      "last_name": "Liu",
+      "username": "evelynliu",
+      "type": "private"
+    },
+    "date": 1586556152,
+    "text": "/progress 23",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 9,
+        "type": "bot_command"
+      }
+    ]
+  }
+}

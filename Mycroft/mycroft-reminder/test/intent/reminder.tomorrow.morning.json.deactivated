@@ -1,0 +1,6 @@
+{
+  "utterance": "remind me to wake up tomorrow morning",
+  "intent_type": "Reminder.intent",
+  "expected_dialog": "SavingReminderTomorrow",
+  "settings": {}
+}

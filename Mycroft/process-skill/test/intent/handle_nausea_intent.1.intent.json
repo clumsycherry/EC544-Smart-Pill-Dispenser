@@ -1,0 +1,8 @@
+{
+    "expected_dialog": "sendmessage",
+    "intent": {
+        "NauseaKeyword": "nausea"
+    },
+    "intent_type": "handle_nausea_intent",
+    "utterance": "i feel nausea"
+}
